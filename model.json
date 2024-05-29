@@ -10,5 +10,7 @@
     "strength": 1.0,
     "scale": 9.0,
     "seed": 12345,
-    "eta": 1.0
+    "eta": 1.0,
+    "width": 512,
+    "height": 512
   }
