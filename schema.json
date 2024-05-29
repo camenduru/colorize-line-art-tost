@@ -85,12 +85,10 @@
       },
       "width": {
         "type": "integer",
-        "readOnly": "true",
         "description": "Width"
       },
       "height": {
         "type": "integer",
-        "readOnly": "true",
         "description": "Height"
       }
     },

@@ -1,6 +1,6 @@
 {
     "input_image": "https://replicate.delivery/pbxt/KloAOzLTaJKdkQOT7cjj1BDvKaiNWWPb4VkcOwPSTy3jZkiV/326143.png",
-    "prompt": "",
+    "prompt": " ",
     "det": "None",
     "a_prompt": "masterpiece, best quality, ultra-detailed, illustration, disheveled hair",
     "n_prompt": "longbody, lowres, bad anatomy, bad hands, missing fingers, pubic hair,extra digit, fewer digits, cropped, worst quality, low quality",
@@ -12,5 +12,5 @@
     "seed": 12345,
     "eta": 1.0,
     "width": 512,
-    "height": 512
+    "height": 768
   }

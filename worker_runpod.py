@@ -89,7 +89,7 @@ def generate(input):
     eta = values['eta']
     num_samples = 1
     result_process = process(det, input_image, prompt, a_prompt, n_prompt, num_samples, image_resolution, detect_resolution, ddim_steps, strength, scale, seed, eta, model, ddim_sampler, preprocessor)
-    image_process = cv2.cvtColor(result[1], cv2.COLOR_RGB2BGR)
+    image_process = cv2.cvtColor(result_process[1], cv2.COLOR_RGB2BGR)
     cv2.imwrite('/content/output.png', image_process)
     result = '/content/output.png'
 
