@@ -14,7 +14,8 @@ RUN apt update -y && add-apt-repository -y ppa:git-core/ppa && apt update -y && 
 USER camenduru
 
 RUN pip install -q opencv-python imageio imageio-ffmpeg ffmpeg-python av xformers==0.0.25 runpod \
-    einops open_clip_torch pytorch_lightning==1.7.7 omegaconf torchmetrics==0.11.4 transformers diffusers==0.27.2
+    einops open_clip_torch pytorch_lightning==1.7.7 omegaconf torchmetrics==0.11.4 transformers diffusers==0.27.2 \
+    git+https://github.com/camenduru/BasicSR@dev
 
 RUN GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/camenduru/ControlNet-v1-1-nightly /content/ControlNet-v1-1-nightly
 
