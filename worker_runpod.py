@@ -14,6 +14,7 @@ from annotator.lineart_anime import LineartAnimeDetector
 from cldm.model import create_model, load_state_dict
 from cldm.ddim_hacked import DDIMSampler
 from PIL import Image
+from diffusers.utils import load_image
 
 import os, json, requests, runpod
 
@@ -73,8 +74,8 @@ def process(det, input_image, prompt, a_prompt, n_prompt, num_samples, image_res
 def generate(input):
     values = input["input"]
     input_image = values['input_image']
-    cv2_image = cv2.imread(str(input_image))
-    input_image = np.array(cv2_image)
+    input_image = load_image(input_image)
+    input_image = np.asarray(input_image)
     prompt = values['prompt']
     det = values['det']
     a_prompt = values['a_prompt']
