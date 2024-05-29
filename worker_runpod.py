@@ -73,7 +73,7 @@ def process(det, input_image, prompt, a_prompt, n_prompt, num_samples, image_res
 @torch.inference_mode()
 def generate(input):
     values = input["input"]
-    input_image = values['input_image']
+    input_image = values['input_image_check']
     input_image = load_image(input_image)
     input_image = np.asarray(input_image)
     prompt = values['prompt']

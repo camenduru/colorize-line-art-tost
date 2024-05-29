@@ -15,7 +15,7 @@
         ],
         "widget": "readme"
       },
-      "input_image": {
+      "input_image_check": {
         "type": "string",
         "description": "Input Image URL",
         "widget": "textarea"
@@ -82,14 +82,6 @@
       ,"eta": {
         "type": "number",
         "description": "ETA"
-      },
-      "width": {
-        "type": "integer",
-        "description": "Width"
-      },
-      "height": {
-        "type": "integer",
-        "description": "Height"
       }
     },
     "buttons": [
