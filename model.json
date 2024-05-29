@@ -1,0 +1,14 @@
+{
+    "input_image": "https://replicate.delivery/pbxt/KloAOzLTaJKdkQOT7cjj1BDvKaiNWWPb4VkcOwPSTy3jZkiV/326143.png",
+    "prompt": "",
+    "det": "['None','Lineart_Anime']",
+    "a_prompt": "masterpiece, best quality, ultra-detailed, illustration, disheveled hair",
+    "n_prompt": "longbody, lowres, bad anatomy, bad hands, missing fingers, pubic hair,extra digit, fewer digits, cropped, worst quality, low quality",
+    "image_resolution": 512,
+    "detect_resolution": 512,
+    "ddim_steps": 20,
+    "strength": 1.0,
+    "scale": 9.0,
+    "seed": 12345,
+    "eta": 1.0
+  }
