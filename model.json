@@ -1,14 +1,14 @@
 {
-    "input_image_check": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2872eef5-dcb7-422a-57f2-54dae3aace00/width=800,quality=90/326143.jpeg",
-    "prompt": "blond hair sunny day",
-    "det": "None",
-    "a_prompt": "masterpiece, best quality, ultra-detailed, illustration, disheveled hair",
-    "n_prompt": "longbody, lowres, bad anatomy, bad hands, missing fingers, pubic hair,extra digit, fewer digits, cropped, worst quality, low quality",
-    "image_resolution": 1024,
-    "detect_resolution": 1024,
-    "ddim_steps": 25,
-    "strength": 1.0,
-    "scale": 9.0,
-    "seed": 4,
-    "eta": 1.0
-  }
+  "input_image_check": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2872eef5-dcb7-422a-57f2-54dae3aace00/width=800,quality=90/326143.jpeg",
+  "prompt": "blond hair sunny day",
+  "det": "None",
+  "a_prompt": "masterpiece, best quality, ultra-detailed, illustration, disheveled hair",
+  "n_prompt": "longbody, lowres, bad anatomy, bad hands, missing fingers, pubic hair,extra digit, fewer digits, cropped, worst quality, low quality",
+  "image_resolution": 1024,
+  "detect_resolution": 1024,
+  "ddim_steps": 25,
+  "strength": 1,
+  "scale": 9,
+  "seed": 4,
+  "eta": 1
+}
