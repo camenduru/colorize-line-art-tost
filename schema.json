@@ -83,6 +83,14 @@
     "eta": {
       "type": "number",
       "description": "ETA"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://fakeimg.pl/768x1152/282828/eae0d0/?text=input#.png",
+      "image2": "https://files.catbox.moe/yutdyl.jpg",
+      "image3": "https://fakeimg.pl/768x1152/282828/eae0d0/?text=output#.png",
+      "image4": "https://files.catbox.moe/0xxh3e.png",
+      "widget": "example"
     }
   },
   "buttons": [
