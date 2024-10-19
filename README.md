@@ -13,4 +13,4 @@ https://github.com/lllyasviel/ControlNet-v1-1-nightly <br />
 https://arxiv.org/abs/2302.05543
 
 ### 🏢 Sponsor
-https://runpod.io
+[https://runpod.io](https://runpod.io?ref=iqi9iy8y)
